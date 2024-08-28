@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Main {
+class MaxShops {
     public static int MaximumShops(int[] opening, int[] closing, int n, int k) {
         // Create and sort pairs of opening and closing times
         int[][] shops = new int[n][2];
